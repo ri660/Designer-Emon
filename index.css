@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500px;
+}
+
+
+
+
+.topBarMain{
+
+    background: #f5f5f5;
+}
+
+.container{
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.phone{
+
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+}
+
+.email{
+
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.social{
+
+    width: 140px;
+    float: left;
+}
+
+.topbarWrapper{
+
+    overflow: hidden;
+}
+
+.social a{
+
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: black;
+    transition: 0.3s;
+}
+
+.social a:first-child{
+
+    border-left: 1px solid #ddd;
+}
+
+.social i:hover{
+
+    color: #FF5200;
+  
+}
+
+
+.phone i{
+
+    color: #FF5200;
+}
+
+.email i{
+
+    color: #FF5200;
+
+}
+
+
+
+
+
+
+/* Menu Design */
+
+.logo{
+
+    width: 150px;
+    float: left;
+
+}
+
+
+.logo img{
+
+    
+    max-width: 130px;
+
+}
+
+
+.menu{
+
+    width: 990px;
+    float: left;
+}
+
+ul.mainManuItem {
+
+    list-style: none;
+    float: right;
+}
+
+ul.mainManuItem li {
+    
+    float: left;
+}
+
+ul.mainManuItem li a {
+
+    text-decoration: none;
+    font-family: oswald;
+    text-transform: uppercase;
+    display: block;
+    padding: 45px 15px;
+    color: #1b1b1b;
+    font-weight: 500;
+    transition: .3s;
+
+}
+
+ul.mainManuItem li a:hover{
+
+    color: #FF5200;
+}
+
+/* Menu Design End */
+
+
+
+
+
+/* Manu list */
